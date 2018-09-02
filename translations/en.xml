@@ -6,14 +6,14 @@
     <string name="CONV_Q_DIE">die</string>
     <string name="CONV_Q_AYY">ayy lmao | my dude</string>
     <string name="CONV_Q_SLEEP">do you ever stop | do you ever get tired | do you even sleep | do you sleep</string>
-    <string name="CONV_Q_RIP">rip | rest in peace | rest in pepperoni</string>
+    <string name="CONV_Q_RIP">rip | rest in peace | rest in pepperoni | rest in pokes</string>
     <string name="CONV_Q_MASTER">do you have a master | who is your master?</string>
     <string name="CONV_Q_WHAT">what is this</string>
     <string name="CONV_Q_BIRTH">when were you born</string>
     <string name="CONV_Q_MAKER">who made you | who is your owner | who is your maker</string>
     <string name="CONV_Q_LOVE">i love you</string>
     <string name="CONV_Q_HELLO">hi | hello | sup</string>
-    <string name="CONV_MOOD_LIST">I'm awesome! | Doing great. | Doing awesome. Pumpin' dem messages out like it's christmas babyyy! | It's been a beautiful day so far.</string>
+    <string name="CONV_MOOD_LIST">I'm awesome! | Doing great. | Doing awesome. Pumpin' dem messages out like it's christmas babyyy! | It's been a beautiful day so far. | whats a mood? :ThonkSpinner:</string>
     <string name="CONV_SNOW">C'mon lets go out and play!</string>
     <string name="CONV_NAH">Nah :wink:</string>
     <string name="CONV_NOPE">Nope.avi</string>
@@ -22,11 +22,9 @@
     <string name="CONV_MASTER">Dobby has no master.</string>
     <string name="CONV_SPARTA">THIS IS SPARTA!</string>
     <string name="CONV_BEGINDATE">I started as a private bot in late october 2015, but was soon put on GitHub and made public for everyone to use (end of december 2015).</string>
-    <string name="CONV_OWNER">I was made by DefaltSimon.</string>
+    <string name="CONV_OWNER">I was made by ya boi @Milk#4930. lol why did you even ask</string>
     <string name="CONV_LOVE">&lt;3</string>
     <string name="CONV_HI">Hi there!</string>
-
-
     <string name="PERM_HIERARCHY">:warning: You are not allowed to mess with this role (you are lower in the \"hierarchy\"). ¯\_(ツ)_/¯</string>
     <string name="PERM_ADMIN">:warning: You do not have the correct permissions to use this command (must be an admin).</string>
     <string name="PERM_MOD">:warning: You do not have the correct permissions to use this command (must be a mod).</string>
@@ -50,17 +48,18 @@
     <string name="INFO_UPDATED">Updated</string>
     <string name="INFO_DISABLED">Disabled</string>
     <string name="INFO_DISABLED_A">Disable</string>
-    <string name="INFO_GENERAL">**Hey! My name is Nano!**
-
-I have a GitHub repo, if you want to look at my code: `{p}github`
+    <string name="INFO_GENERAL">**Hey! I'm a bot made by @Milk#4930!**
 
 :inbox_tray: The current version is **{ver}**.
 
-:spy: I have been coded by **DefaltSimon**.
+:spy: I have been coded by **Milk and DefaltSimon**.
 
-Also: `{p}gif` command powered by **Giphy**</string>
-    <string name="INFO_GITHUB">Nano's code is available on **GitHub**: https://github.com/DefaltSimon/Nano</string>
-    <string name="INFO_INVITE">You wanna invite Nano to your server? Great!
+Also: `{p}gif` command powered by ***Nutgoblins literal landfill of salt lol***
+
+**This is a fork of Nano, Made by my g DefaltSimon. Go show him some love for helping me when i couldnt python.**
+https://nanobot.pw/</string>
+    <string name="INFO_GITHUB">My code is available on **GitHub**: https://github.com/MilkMGN/Nano</string>
+    <string name="INFO_INVITE">You wanna invite me to your PRIVATE server? Great!
 **Just follow the link:** &lt;link&gt;</string>
     <string name="INFO_REPORT">Report</string>
     <string name="INFO_SUGGESTION">Suggestion</string>
@@ -455,23 +454,29 @@ To give a user mod permissions, use _permission mod @mention (same applies here)
 `{}` *prayers said so far*...</string>
     <string name="MSG_ACHIEVMENT_NOTEXT">Please specify text to put in the image.</string>
 
-    <string name="MSG_HELP">**Hey, I'm Nano!**
+    <string name="MSG_HELP">**Hey! I'm a bot made by @Milk#4930!**
 
 To get familiar with simple commands, type `_help simple`.
 If you want specific info about a command, do `_help [command here]`.
 
-Or you could just simply take a look at the wiki page: http://nanobot.pw/commands.html
-If you are an admin/server owner and want to set up your server for Nano, type `_setup`.
-It is highly recommended that you join the "official" Nano server for announcements and help : https://discord.gg/FZJB6UJ
+:inbox_tray: The current version is **{ver}**.
 
-By using Nano you agree that we may store some user data such as names of users, servers and channels to aid functionality. For more info, see `_tos`.</string>
+:spy: I have been coded by **Milk and DefaltSimon**.
+
+Also: `{p}gif` command powered by ***Nutgoblins literal landfill of salt lol***
+
+**This is a fork of Nano, Made by my g DefaltSimon. Go show him some love for helping me when i couldnt python.**
+https://nanobot.pw/
+
+***By using Nano you agree that we may store some user data such as names of users, servers and channels to aid functionality. For more info, see `_tos`.***</string>
     <string name="MSG_TOS">:shield: **Terms of Service**
 
 On August 20th, 2017 Discord updated their Terms of Service. Bot owners must now notify their users what kind of user data they store.
 
-By using Nano you agree that we may store some user data, such as **names of users, servers and channels**.
+By using me you agree that we may store some user data, such as **names of users, servers and channels**.
 
-For more information, read &lt;http://nanobot.pw/tos.html></string>
+For more information, read &lt;http://nanobot.pw/tos.html>
+</string>
     <string name="MSG_HELP_SIMPLE">`_hello` - Welcomes you or the mentioned person.
 `_randomgif` - Posts a random gif from Giphy
 `_roll number` - rolls a random number
@@ -611,7 +616,7 @@ Please try again later.</string>
     <string name="MSG_STATUS_CHANNELS">Channels</string>
     <string name="MSG_STATUS_CHANNELS_L">{} channels</string>
 
-    <string name="MSG_DEBUG_VERSION">Nano version</string>
+    <string name="MSG_DEBUG_VERSION">i am version</string>
     <string name="MSG_DEBUG_DPY">discord.py</string>
     <string name="MSG_DEBUG_RAM">RAM usage</string>
     <string name="MSG_DEBUG_GC">{} MB (GC collected {} MB)</string>
@@ -740,7 +745,7 @@ Direct link: http://steamcommunity.com/id/{}/</string>
     <string name="MSG_STEAM_HELP">**Steam commands:**
 `!steam user community_url`, `!steam games community_url`</string>
 
-    <string name="MSG_TF_UNAVAILABLE">This command is currently unavailable. Apologies.</string>
+    <string name="MSG_TF_UNAVAILABLE">Backpacktf broke their API. I cannot run this right now.</string>
     <string name="MSG_TF_NO_PARAMS">:warning: Please specify an item to search for.</string>
     <string name="MSG_TF_NO_SUCH_ITEM">**No item** with that name could be found.</string>
     <string name="MSG_TF_LIST">:scales: **{}** *(on bp.tf)*
@@ -808,15 +813,13 @@ Direct link: http://steamcommunity.com/id/{}/</string>
     <string name="EVENT_KICK">was kicked</string>
     <string name="EVENT_SOFTBAN">was soft-banned</string>
     <string name="EVENT_BAN">was banned</string>
-    <string name="EVENT_SERVER_JOIN">**Hi!** I'm Nano!
+    <string name="EVENT_SERVER_JOIN">**Hi!** I'm Milks Bot!
 Now that you have invited me to your server, you might want to set up some things. Right now only the server owner can use my restricted commands. But no worries, you can add admin permissions to others by assigning them a role named **Nano Admin**!
 
 To begin a basic setup, type `!setup` as the server owner. It will help you set up some simple things.
 After that, you might want to see `!commands` to get familiar with my commands.
 
 
-Also, I recommend that you join the "official" Nano server for announcements and help : https://discord.gg/FZJB6UJ
-
-By using Nano you agree that we may store some user data such as names of users, servers and channels to aid functionality. For more info, see `!tos`.</string>
+By using me you agree that we may store some user data such as names of users, servers and channels to aid functionality. For more info, see `!tos`.</string>
 
 </resources>
