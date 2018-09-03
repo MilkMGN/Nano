@@ -64,8 +64,7 @@ class StatusRoller:
         shards = list(self.client.shards.keys())
         for shard_id in shards:
             customized = name + " | shard {}".format(shard_id + 1)
-	await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name="you"))
-
+            await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name="you"))
 
     async def run(self):
         await self.client.wait_until_ready()
