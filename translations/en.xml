@@ -459,11 +459,11 @@ To give a user mod permissions, use _permission mod @mention (same applies here)
 To get familiar with simple commands, type `_help simple`.
 If you want specific info about a command, do `_help [command here]`.
 
-:inbox_tray: The current version is **{ver}**.
+📥 The current version is **{ver}**.
 
 :spy: I have been coded by **Milk and DefaltSimon**.
 
-Also: `{p}gif` command powered by ***Nutgoblins literal landfill of salt lol***
+Also: `_gif` command powered by ***Nutgoblins literal landfill of salt lol***
 
 **This is a fork of Nano, Made by my g DefaltSimon. Go show him some love for helping me when i couldnt python.**
 https://nanobot.pw/
