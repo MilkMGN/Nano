@@ -6,7 +6,6 @@ from asyncio import sleep
 from datetime import datetime
 from random import shuffle
 from shutil import copy2
-
 from discord import Game, utils, Embed, Colour, DiscordException, Activity, ActivityType
 
 from core.stats import MESSAGE
@@ -65,7 +64,8 @@ class StatusRoller:
         shards = list(self.client.shards.keys())
         for shard_id in shards:
             customized = name + " | shard {}".format(shard_id + 1)
-            await self.client.change_presence(activity=Game(name=customized), shard_id=shard_id)
+	await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name="you"))
+
 
     async def run(self):
         await self.client.wait_until_ready()
